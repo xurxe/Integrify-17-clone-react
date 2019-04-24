@@ -1,0 +1,14 @@
+header {
+    height: 100px;
+    background: grey;
+}
+
+main {
+    height: 200px;
+    background: white;
+}
+
+footer {
+    height: 100px;
+    background: grey;
+}
