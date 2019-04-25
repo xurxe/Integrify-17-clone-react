@@ -20,4 +20,4 @@ Everyone at [Integrify](https://github.com/Integrify-Finland), especially my tea
 
 ## Reference image
 
-![alt text](./assets/assignment-2.jpg "The model we had to follow")
+![alt text](./public/static/assets/assignment-2.jpg "The model we had to follow")
