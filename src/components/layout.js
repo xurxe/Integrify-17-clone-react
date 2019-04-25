@@ -1,5 +1,8 @@
 import React from "react"
+// eslint-disable-next-line
 import layoutStyles from "./layout.css"
+import Main from "./main"
+
 
 export default ({children}) => (
     <div id="layout">
@@ -11,7 +14,7 @@ export default ({children}) => (
         <div id="top"></div>
         <div className="stripe-background"></div>
 
-        <main></main>
+        <Main></Main>
 
         <div id="bottom"></div>
         <div id="info"></div>

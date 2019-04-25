@@ -72,14 +72,7 @@ header {
 }
 
 main {
-    display: grid;
     grid-area: main;
-    grid-template-areas: 
-        "mainA"
-        "mainB"
-        "mainC";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
     width: 100%;
 }
 
