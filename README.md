@@ -1,6 +1,6 @@
 # Cloning a website - with React!
 
-Our [second assignment at Integrify](https://github.com/xurxe/Integrify-02-clone) was to clone the website below using only HTML and CSS. Now we have to do it all again with React!
+Our [second assignment at Integrify](https://github.com/xurxe/Integrify-02-clone) was to clone the model provided using only HTML and CSS. Now we have to do it all again with React!
 
 ## Demo
 
