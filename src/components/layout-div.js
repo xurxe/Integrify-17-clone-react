@@ -3,6 +3,8 @@ import React from "react"
 import Styles from "./layout-div.css"
 import TopDiv from "./top-div"
 import Main from "./main"
+import BottomDiv from "./bottom-div"
+
 
 export default () => (
     <div id="layout">
@@ -16,7 +18,7 @@ export default () => (
 
         <Main></Main>
 
-        <div id="bottom"></div>
+        <BottomDiv></BottomDiv>
         <div id="info"></div>
         <footer></footer>
     </div>
