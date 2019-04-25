@@ -16,7 +16,8 @@
   "dependencies": {
     "gatsby": "^2.3.29",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-icons": "^2.2.7"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",

@@ -8,7 +8,7 @@
         ". bottom ."
         ". info ."
         ". footer footer-right";
-    grid-template-columns: auto 800px auto;
+    grid-template-columns: auto 950px auto;
     grid-template-rows: auto auto var(--shorter-length) auto auto auto auto;
     grid-column-gap: var(--short-length);
     width: 100%;
@@ -38,20 +38,6 @@ header {
     grid-area: header;
     height: 28rem;
     justify-content: flex-start;
-}
-
-#top {
-    align-items: center;
-    background: var(--blue);
-    border-radius: 2px 2px 0 0;
-    display: flex;
-    grid-area: top;
-    height: var(--longer-length);
-    justify-content: space-between;
-    line-height: var(--longer-length);
-    padding-left: 50px;
-    padding-right: 2rem;
-    position: relative;
 }
 
 #top:after {

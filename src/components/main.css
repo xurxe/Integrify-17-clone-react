@@ -70,7 +70,7 @@ main {
 
 .content4 {
     background: white;
-
+    
     grid-area: content4;
     height: 100%;
     margin-top: var(--medium-length);

@@ -7,39 +7,39 @@ import BlogDiv from "./blog-div"
 import TestimonialDiv from "./testimonial-div"
 import TitleDiv from "./title-div"
 
-export default ({children}) => (
+export default () => (
     <main>
         <div id="mainA" className="content1">
-            <FeatureDiv></FeatureDiv>
-            <FeatureDiv></FeatureDiv>
-            <FeatureDiv></FeatureDiv>
-            <FeatureDiv></FeatureDiv>
+            <FeatureDiv title1="Superbly" title2="responsive"></FeatureDiv>
+            <FeatureDiv title1="Squeeky" title2="clean"></FeatureDiv>
+            <FeatureDiv title1="Multi" title2="purpose"></FeatureDiv>
+            <FeatureDiv title1="Highly" title2="flexible"></FeatureDiv>
         </div>
 
         <div id="mainB" className="title2">
-            <TitleDiv></TitleDiv>
+            <TitleDiv title="Recent work"></TitleDiv>
         </div>
 
         <div id="mainC">
             <div className="content2">
-                <BlogDiv></BlogDiv>
-                <BlogDiv></BlogDiv>
-                <BlogDiv></BlogDiv>
+                <BlogDiv title="Blogitty"></BlogDiv>
+                <BlogDiv title="Blogus"></BlogDiv>
+                <BlogDiv title="Blogarino"></BlogDiv>
             </div>
 
             <div className="title3">
-                <TitleDiv></TitleDiv>
+                <TitleDiv title="Testimonials"></TitleDiv>
             </div>
 
             <div className="content3">
-                <TestimonialDiv></TestimonialDiv>
-                <TestimonialDiv></TestimonialDiv>
-                <TestimonialDiv></TestimonialDiv>
-                <TestimonialDiv></TestimonialDiv>
+                <TestimonialDiv name="Jane Doe"></TestimonialDiv>
+                <TestimonialDiv name="Fulano de Tal"></TestimonialDiv>
+                <TestimonialDiv name="Maija Meikäläinen"></TestimonialDiv>
+                <TestimonialDiv name="Nisse i Hökarängen"></TestimonialDiv>
             </div>
 
             <div className="title4">
-                <TitleDiv></TitleDiv>
+                <TitleDiv title="Development"></TitleDiv>
             </div>
             
             <div className="content4"></div>
