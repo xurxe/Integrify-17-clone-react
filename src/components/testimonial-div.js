@@ -1,9 +1,9 @@
 import React from "react"
 // eslint-disable-next-line
-import blogStyles from "./blog.css"
+import Styles from "./testimonial-div.css"
 
 export default ({children}) => (
-    <div className="blog">
+    <div className="testimonial">
 
     </div>
 )

@@ -1,9 +1,10 @@
 import React from "react"
 // eslint-disable-next-line
-import mainStyles from "./main.css"
-import Feature from "./feature"
-import Blog from "./blog"
-import Testimonial from "./testimonial"
+import Styles from "./main.css"
+
+import Feature from "./feature-div"
+import Blog from "./blog-div"
+import Testimonial from "./testimonial-div"
 
 export default ({children}) => (
     <main id="hello">

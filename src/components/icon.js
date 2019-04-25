@@ -1,9 +1,9 @@
 import React from "react"
 // eslint-disable-next-line
-import featureStyles from "./feature.css"
+import Styles from "./icon.css"
 
 export default ({children}) => (
-    <div className="feature">
-
+    <div className="circle">
+    
     </div>
 )

@@ -10,9 +10,6 @@ main {
 }
 
 #mainA {
-    background: lightblue;
-    min-height: 50px;
-
     margin-top: calc(var(--longer-length) - var(--shorter-length));
 }
 

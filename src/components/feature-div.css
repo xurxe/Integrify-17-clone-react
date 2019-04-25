@@ -1,0 +1,41 @@
+.feature {
+    display: grid;
+    grid-row-gap: var(--short-length);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.25fr 1fr 0.5fr;
+    justify-items: center;
+    padding: var(--short-length);
+    position: relative;
+}
+
+.feature p {
+    text-align: center;
+}
+
+.feature:hover {
+    background-color: white;
+    box-shadow: 2rem 0 8rem -4rem; 
+}
+
+.feature:hover::after {
+    border-right: 2.5rem solid transparent;
+    border-top: 2.5rem solid white;
+    bottom: -2.5rem;
+    content:"";
+    height: 0;
+    left:0;
+    position: absolute;
+    width: 0;
+}
+
+.feature:hover .circle {
+    background: radial-gradient(var(--blue-gradient));
+}
+
+.feature:hover a {
+    background: transparent;
+    border: none;
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 600;
+}

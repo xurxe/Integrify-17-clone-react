@@ -1,6 +1,6 @@
 import React from "react"
 // eslint-disable-next-line
-import layoutStyles from "./layout.css"
+import Styles from "./layout-div.css"
 import Main from "./main"
 
 export default ({children}) => (
