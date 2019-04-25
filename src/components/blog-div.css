@@ -1,7 +1,6 @@
 .blog-div {
     background: white;
     box-shadow: 2rem 0 8rem -4rem; 
-    cursor: pointer;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;

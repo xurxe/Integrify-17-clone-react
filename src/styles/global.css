@@ -37,6 +37,10 @@ html {
     width: 100%;
 }
 
+a {
+    color: var(--darker-grey);
+}
+
 b {
     font-weight: 800;
 }

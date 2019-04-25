@@ -66,8 +66,6 @@ main {
 }
 
 .content3 {
-    background: pink;
-
     display: grid;
     grid-area: content3;
     grid-column-gap: var(--short-length);
