@@ -2,38 +2,46 @@ import React from "react"
 // eslint-disable-next-line
 import Styles from "./main.css"
 
-import Feature from "./feature-div"
-import Blog from "./blog-div"
-import Testimonial from "./testimonial-div"
+import FeatureDiv from "./feature-div"
+import BlogDiv from "./blog-div"
+import TestimonialDiv from "./testimonial-div"
+import TitleDiv from "./title-div"
 
 export default ({children}) => (
-    <main id="hello">
+    <main>
         <div id="mainA" className="content1">
-            <Feature></Feature>
-            <Feature></Feature>
-            <Feature></Feature>
-            <Feature></Feature>
+            <FeatureDiv></FeatureDiv>
+            <FeatureDiv></FeatureDiv>
+            <FeatureDiv></FeatureDiv>
+            <FeatureDiv></FeatureDiv>
         </div>
 
-        <div id="mainB" className="title2"></div>
+        <div id="mainB" className="title2">
+            <TitleDiv></TitleDiv>
+        </div>
 
         <div id="mainC">
             <div className="content2">
-                <Blog></Blog>
-                <Blog></Blog>
-                <Blog></Blog>
+                <BlogDiv></BlogDiv>
+                <BlogDiv></BlogDiv>
+                <BlogDiv></BlogDiv>
             </div>
 
-            <div className="title3"></div>
+            <div className="title3">
+                <TitleDiv></TitleDiv>
+            </div>
 
             <div className="content3">
-                <Testimonial></Testimonial>
-                <Testimonial></Testimonial>
-                <Testimonial></Testimonial>
-                <Testimonial></Testimonial>
+                <TestimonialDiv></TestimonialDiv>
+                <TestimonialDiv></TestimonialDiv>
+                <TestimonialDiv></TestimonialDiv>
+                <TestimonialDiv></TestimonialDiv>
             </div>
 
-            <div className="title4"></div>
+            <div className="title4">
+                <TitleDiv></TitleDiv>
+            </div>
+            
             <div className="content4"></div>
         </div>
     </main>
