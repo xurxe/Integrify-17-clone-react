@@ -25,8 +25,6 @@ main {
 
 #mainB {
     background: lightgreen;
-    min-height: 50px;
-
     margin-top: var(--longer-length);
 }
 
@@ -67,7 +65,7 @@ main {
 }
 
 .title3 {
-    background: orange;
+    background: magenta;
 
     display: grid;
     grid-area: title3;
@@ -77,7 +75,7 @@ main {
 }
 
 .content3 {
-    background: orangered;
+    background: pink;
 
     display: grid;
     grid-area: content3;
@@ -90,7 +88,7 @@ main {
 }
 
 .title4 {
-    background: pink;
+    background: mediumpurple;
 
     display: grid;
     grid-area: title4;
@@ -100,7 +98,7 @@ main {
 }
 
 .content4 {
-    background: orchid;
+    background: lavender;
 
     grid-area: content4;
     height: 100%;

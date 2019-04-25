@@ -3,7 +3,6 @@ import React from "react"
 import layoutStyles from "./layout.css"
 import Main from "./main"
 
-
 export default ({children}) => (
     <div id="layout">
         <div className="grey-gradient-background"></div>
