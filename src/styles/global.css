@@ -6,3 +6,32 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
+
+:root {
+    --shorter-length: 0.85rem;
+    --short-length: 1.4rem;
+    --medium-length: 3rem;
+    --long-length: 4.5rem;
+    --longer-length: 6rem;
+    --white-gradient: white, #EFEFEF;
+    --grey-gradient: #666666, #252525;
+    --blue-gradient: #458ED3, #387bb9;
+    --lightest-grey: #EFEFEF;
+    --lighter-grey: #CCCCCC;
+    --light-grey: #aaaaaa;
+    --grey: #6C6C6C;
+    --dark-grey: #404040;
+    --darker-grey: #353535;
+    --darkest-grey: #252525;
+    --blue: #458ED3;
+}
+
+html {
+    background: var(--lightest-grey);
+    color: var(--darker-grey);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.25;
+    width: 100%;
+}
