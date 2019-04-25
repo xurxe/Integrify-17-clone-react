@@ -1,6 +1,6 @@
 # Cloning a website - with React!
 
-Our second assignment at Integrify was to clone the website below using only HTML and CSS. Now we have to do it all again with React!
+Our [second assignment at Integrify](https://github.com/xurxe/Integrify-02-clone) was to clone the website below using only HTML and CSS. Now we have to do it all again with React!
 
 ## Demo
 
@@ -17,7 +17,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Everyone at [Integrify](https://github.com/Integrify-Finland), especially my teacher and classmates.
-
-## Reference image
-
-![alt text](./public/static/assets/assignment-2.jpg "The model we had to follow")
