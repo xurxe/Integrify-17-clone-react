@@ -33,9 +33,6 @@ main {
 }
 
 #mainC {
-    background: lightyellow;
-    min-height: 100px;
-
     display: grid;
     grid-column-gap: var(--short-length);
     grid-template-areas: 
@@ -48,9 +45,6 @@ main {
 }
 
 .content2 {
-    background: yellow;
-    min-height: 50px;
-
     display: grid;
     grid-area: content2;
     grid-column-gap: var(--short-length);

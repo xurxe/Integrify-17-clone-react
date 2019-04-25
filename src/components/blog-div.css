@@ -1,3 +1,37 @@
-.blog {
-    background: orange;
+.blog-div {
+    background: white;
+    box-shadow: 2rem 0 8rem -4rem; 
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    position: relative;
+}
+
+.blog-div::after {
+    border-right: 2.5rem solid transparent;
+    border-top: 2.5rem solid white;
+    bottom: -2.5rem;
+    content:"";
+    height: 0;
+    left:0;
+    position: absolute;
+    width: 0;
+    z-index: 10;
+}
+
+.blog-thumbnail-div {
+    background: var(--grey);
+    height: 12rem;
+    width: 100%;
+}
+
+.blog-snippet-div {
+    padding: var(--short-length); 
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
 }
