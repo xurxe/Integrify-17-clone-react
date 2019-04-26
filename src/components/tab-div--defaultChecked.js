@@ -5,7 +5,7 @@ import BlueButton from "./blue-button"
 
 export default (props) => (
     <div className="tab">
-        <input name="checkbox-tabs-group" type="radio" id={props.id} className="checkboxtab" />
+        <input name="checkbox-tabs-group" type="radio" id={props.id} className="checkboxtab" defaultChecked />
         <label htmlFor={props.id}>{props.title}</label>
         <div className="content">
             <h5>
@@ -20,5 +20,4 @@ export default (props) => (
             <BlueButton text="Learn more"></BlueButton>
         </div>
     </div>
-    
 )

@@ -12,19 +12,19 @@ export default () => (
     <main>
         <div id="mainA" className="content1">
             <FeatureDiv title1="Superbly" title2="responsive">
-                <i class="fas fa-mobile-alt"></i>
+                <i className="fas fa-mobile-alt"></i>
             </FeatureDiv>
 
             <FeatureDiv title1="Squeeky" title2="clean">
-                <i class="fas fa-desktop"></i>
+                <i className="fas fa-desktop"></i>
             </FeatureDiv>
 
             <FeatureDiv title1="Multi" title2="purpose">
-                <i class="fas fa-laptop"></i>
+                <i className="fas fa-laptop"></i>
             </FeatureDiv>
 
             <FeatureDiv title1="Highly" title2="flexible">
-                <i class="fas fa-recycle"></i>
+                <i className="fas fa-recycle"></i>
             </FeatureDiv>
         </div>
 
