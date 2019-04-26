@@ -1,13 +1,13 @@
 import React from "react"
 // eslint-disable-next-line
 import Styles from "./header.css"
-import headerImg from "../assets/header-img.png"
+import HeaderImg from "../assets/header-img.png"
 import BlueButton from "./blue-button"
 
 export default () => (
     <header>
         <div className="header-image-div">
-            <img src={headerImg} alt="" />
+            <img src={HeaderImg} alt="" />
         </div>
         <div className="header-text-div">
             <h1>
