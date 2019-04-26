@@ -5,9 +5,14 @@ header {
     height: 28rem;
     justify-content: flex-start;
 }
+
 header div {
     flex-shrink: 0;
     padding: 0 1rem;
+}
+
+.header-image-div {
+    width: 40rem;
 }
 
 header img {
