@@ -6,6 +6,7 @@ import FeatureDiv from "./feature-div"
 import BlogDiv from "./blog-div"
 import TestimonialDiv from "./testimonial-div"
 import TitleDiv from "./title-div"
+import TabsDiv from "./tabs-div"
 
 export default () => (
     <main>
@@ -33,27 +34,44 @@ export default () => (
 
         <div id="mainC">
             <div className="content2">
-                <BlogDiv title="Blogitty"></BlogDiv>
-                <BlogDiv title="Blogus"></BlogDiv>
-                <BlogDiv title="Blogarino"></BlogDiv>
+                <BlogDiv title="Blogitty">
+                </BlogDiv>
+
+                <BlogDiv title="Blogus">
+                </BlogDiv>
+
+                <BlogDiv title="Blogarino">
+                </BlogDiv>
+
             </div>
 
             <div className="title3">
-                <TitleDiv title="Testimonials"></TitleDiv>
+                <TitleDiv title="Testimonials">
+                </TitleDiv>
             </div>
 
             <div className="content3">
-                <TestimonialDiv name="Jane Doe"></TestimonialDiv>
-                <TestimonialDiv name="Fulano de Tal"></TestimonialDiv>
-                <TestimonialDiv name="Maija Meikäläinen"></TestimonialDiv>
-                <TestimonialDiv name="Nisse i Hökarängen"></TestimonialDiv>
+                <TestimonialDiv name="Jane Doe">
+                </TestimonialDiv>
+
+                <TestimonialDiv name="Fulano de Tal">
+                </TestimonialDiv>
+
+                <TestimonialDiv name="Maija Meikäläinen">
+                </TestimonialDiv>
+
+                <TestimonialDiv name="Nisse i Hökarängen">
+                </TestimonialDiv>
             </div>
 
             <div className="title4">
-                <TitleDiv title="Development"></TitleDiv>
+                <TitleDiv title="Development">
+                </TitleDiv>
             </div>
             
-            <div className="content4"></div>
+            <div className="content4">
+                <TabsDiv></TabsDiv>
+            </div>
         </div>
     </main>
 )
