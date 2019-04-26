@@ -1,0 +1,26 @@
+header {
+    align-items: center;
+    display: flex;
+    grid-area: header;
+    height: 28rem;
+    justify-content: flex-start;
+}
+header div {
+    flex-shrink: 0;
+    padding: 0 1rem;
+}
+
+header img {
+    height: 21rem;
+    padding: 0 3rem;
+}
+
+header em {
+    color: white;
+}
+
+header p {
+    color: var(--lighter-grey);
+    margin: 2rem 0;
+    padding: 0;
+}

@@ -1,6 +1,8 @@
 import React from "react"
 // eslint-disable-next-line
 import Styles from "./layout-div.css"
+
+import Header from "./header"
 import TopDiv from "./top-div"
 import Main from "./main"
 import BottomDiv from "./bottom-div"
@@ -12,7 +14,7 @@ export default () => (
         <div className="grey-dark-background"></div>
         <div className="grey-darker-background"></div>
 
-        <header></header>
+        <Header></Header>
         <TopDiv></TopDiv>
         <div className="stripe-background"></div>
 
