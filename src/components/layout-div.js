@@ -6,6 +6,7 @@ import Header from "./header"
 import TopDiv from "./top-div"
 import Main from "./main"
 import BottomDiv from "./bottom-div"
+import InfoDiv from "./info-div"
 
 
 export default () => (
@@ -21,7 +22,7 @@ export default () => (
         <Main></Main>
 
         <BottomDiv></BottomDiv>
-        <div id="info"></div>
+        <InfoDiv></InfoDiv>
         <footer></footer>
     </div>
 )

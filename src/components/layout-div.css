@@ -38,17 +38,6 @@
     grid-area: stripe-background;
 }
 
-#info {
-    display: grid;
-    color: var(--light-grey);
-    grid-area: info;
-    grid-column-gap: var(--short-length);
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    padding-bottom: var(--short-length);
-    padding-top: var(--long-length);
-}
-
 footer {
     align-items: center;
     color: var(--light-grey);

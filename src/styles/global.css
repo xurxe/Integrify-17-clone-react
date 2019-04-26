@@ -88,3 +88,12 @@ em {
 b {
     font-weight: 900; 
 }
+
+p {
+    padding-bottom: var(--short-length);
+}
+
+.smaller-italic {
+    font-size: 0.9rem;
+    font-style: italic;
+}
