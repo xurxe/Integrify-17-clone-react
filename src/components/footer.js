@@ -2,7 +2,6 @@ import React from "react"
 // eslint-disable-next-line
 import Styles from "./footer.css"
 import SocialMediaA from "./social-media-a"
-import TwitterImg from "../assets/twitter-square-brands.svg"
 
 
 export default (props) => (
@@ -10,9 +9,29 @@ export default (props) => (
         <p className="smaller">COPYRIGHT &copy; 2003-2012 VENTUS INC. ALL RIGHTS RESERVED.</p>
 
         <div className="social-media-div">
-        <SocialMediaA href="https://twitter.com/"/* tooltip="Twitter" */>
-            <TwitterImg></TwitterImg>
-        </SocialMediaA>
+            <SocialMediaA href="https://twitter.com/">
+                <i className="fab fa-twitter-square"></i>
+            </SocialMediaA>
+
+            <SocialMediaA href="https://facebook.com/">
+                <i class="fab fa-facebook-square"></i>
+            </SocialMediaA>
+
+            <SocialMediaA href="https://vimeo.com/">
+                <i class="fab fa-vimeo-square"></i>
+            </SocialMediaA>
+
+            <SocialMediaA href="https://youtube.com/">
+                <i class="fab fa-youtube-square"></i>
+            </SocialMediaA>
+
+            <SocialMediaA href="https://plus.google.com/">
+                <i class="fab fa-google-plus-square"></i>
+            </SocialMediaA>
+
+            <SocialMediaA href="https://pinterest.com/">
+                <i class="fab fa-pinterest-square"></i>
+            </SocialMediaA>
         
         </div>
     </footer>

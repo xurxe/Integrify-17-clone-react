@@ -33,25 +33,20 @@
     border-radius: 50%;
     height: 80px;
     width: 80px;
+    text-align: center;
 }
 
-.feature-div:hover .circle {
+.feature-div:hover .circle-div {
     background: radial-gradient(var(--blue-gradient));
 }
 
-.icon i {
+.feature-div i {
     color: white; 
     font-size: 2rem;
-    line-height: 65px;
+    line-height: 80px;
 }
 
-.fas {
-    font-size: 2.5rem;
-    margin: calc(0.5*var(--short-length));
-    color: var(--darkest-grey);
-}
-
-.feature:hover a {
+.feature-div:hover a {
     background: transparent;
     border: none;
     color: var(--blue);

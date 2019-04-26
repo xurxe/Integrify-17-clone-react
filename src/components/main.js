@@ -10,10 +10,21 @@ import TitleDiv from "./title-div"
 export default () => (
     <main>
         <div id="mainA" className="content1">
-            <FeatureDiv title1="Superbly" title2="responsive"></FeatureDiv>
-            <FeatureDiv title1="Squeeky" title2="clean"></FeatureDiv>
-            <FeatureDiv title1="Multi" title2="purpose"></FeatureDiv>
-            <FeatureDiv title1="Highly" title2="flexible"></FeatureDiv>
+            <FeatureDiv title1="Superbly" title2="responsive">
+                <i class="fas fa-mobile-alt"></i>
+            </FeatureDiv>
+
+            <FeatureDiv title1="Squeeky" title2="clean">
+                <i class="fas fa-desktop"></i>
+            </FeatureDiv>
+
+            <FeatureDiv title1="Multi" title2="purpose">
+                <i class="fas fa-laptop"></i>
+            </FeatureDiv>
+
+            <FeatureDiv title1="Highly" title2="flexible">
+                <i class="fas fa-recycle"></i>
+            </FeatureDiv>
         </div>
 
         <div id="mainB" className="title2">

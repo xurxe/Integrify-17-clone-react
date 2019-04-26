@@ -1,10 +1,9 @@
-.social-media-img {
+.social-media-a .fab {
     color: var(--darkest-grey);
-    height: 20px;
-    width: 20px;
+    font-size: 2.5rem;
     margin-left: calc(0.5*var(--short-length));
 }
 
-.social-media-img:hover {
+.social-media-a .fab:hover {
     color: var(--lightest-grey);
 }

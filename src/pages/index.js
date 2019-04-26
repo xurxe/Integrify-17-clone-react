@@ -19,6 +19,8 @@ export default () => (
             <meta property="og:image" content=" " />
             <meta property="og:url" content=" " />
             <meta name="twitter:card" content="summary_large_image" />
+
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
         </Helmet>
         <Layout></Layout>
     </div>

@@ -7,6 +7,7 @@ export default (props) => (
     <div className="feature-div">
         <div className="icon-div">
             <div className="circle-div">
+                {props.children}
             </div>
         </div>
 

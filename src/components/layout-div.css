@@ -37,13 +37,3 @@
     background-size: 5.66px 5.66px; 
     grid-area: stripe-background;
 }
-
-footer {
-    align-items: center;
-    color: var(--light-grey);
-    display: flex;
-    flex-flow: row nowrap;
-    grid-area: footer;
-    height: var(--longer-length);
-    justify-content: space-between;
-}
