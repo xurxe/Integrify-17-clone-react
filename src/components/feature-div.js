@@ -4,9 +4,9 @@ import Styles from "./feature-div.css"
 import ReadMoreButton from "./read-more-button"
 
 export default (props) => (
-    <div className="feature">
+    <div className="feature-div">
         <div className="icon-div">
-            <div className="circle">
+            <div className="circle-div">
             </div>
         </div>
 

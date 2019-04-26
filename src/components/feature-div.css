@@ -1,4 +1,4 @@
-.feature {
+.feature-div {
     display: grid;
     grid-row-gap: var(--short-length);
     grid-template-columns: 1fr;
@@ -8,16 +8,16 @@
     position: relative;
 }
 
-.feature p {
+.feature-div p {
     text-align: center;
 }
 
-.feature:hover {
+.feature-div:hover {
     background-color: white;
     box-shadow: 2rem 0 8rem -4rem; 
 }
 
-.feature:hover::after {
+.feature-div:hover::after {
     border-right: 2.5rem solid transparent;
     border-top: 2.5rem solid white;
     bottom: -2.5rem;
@@ -28,14 +28,14 @@
     width: 0;
 }
 
-.circle {
+.circle-div {
     background: radial-gradient(var(--grey-gradient));
     border-radius: 50%;
     height: 80px;
     width: 80px;
 }
 
-.feature:hover .circle {
+.feature-div:hover .circle {
     background: radial-gradient(var(--blue-gradient));
 }
 

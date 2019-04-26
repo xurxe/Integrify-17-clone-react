@@ -3,5 +3,5 @@ import React from "react"
 import Styles from "./flickr-image-div.css"
 
 export default (props) => (
-    <div class="flickr-image-div"></div>
+    <div className="flickr-image-div"></div>
 )

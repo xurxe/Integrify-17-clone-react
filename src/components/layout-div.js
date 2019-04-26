@@ -7,10 +7,11 @@ import TopDiv from "./top-div"
 import Main from "./main"
 import BottomDiv from "./bottom-div"
 import InfoDiv from "./info-div"
+import Footer from "./footer"
 
 
 export default () => (
-    <div id="layout">
+    <div id="layout-div">
         <div className="grey-gradient-background"></div>
         <div className="grey-dark-background"></div>
         <div className="grey-darker-background"></div>
@@ -23,6 +24,6 @@ export default () => (
 
         <BottomDiv></BottomDiv>
         <InfoDiv></InfoDiv>
-        <footer></footer>
+        <Footer></Footer>
     </div>
 )
